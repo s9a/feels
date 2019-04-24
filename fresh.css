@@ -9,22 +9,14 @@
   overflow-wrap: break-word;
 }
 
-.music_coming_thru_me svg {
-  max-width: 100%;
-  height: auto;
-}
-
 .music_coming_thru_me * {
   word-break: break-word;
   overflow-wrap: break-word;
   box-sizing: border-box;
 }
 
-.nah {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.music_coming_thru_me :focus {
+  outline-color: #415;
 }
 
 .loki { line-height: inherit; font-size: .666666rem }
@@ -43,6 +35,5 @@
 }
 
 .fasho { font-weight: bold }
-.assim_ill_8ing {}
-.dis_tribu_ting { padding: 1rem }
-.exhale { margin-bottom: 1rem }
+.assim_ill_8ing { margin: 0 }
+.dis_tribu_ting { margin-bottom: 1rem }
